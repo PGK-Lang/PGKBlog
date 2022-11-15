@@ -1,10 +1,27 @@
-$high-emph: rgba(rgb(216, 249, 221), 0.87);
-$med-emph: rgba(rgb(216, 249, 221), 0.69); //Noicee
-$low-emph: rgba(rgb(216, 249, 221), 0.38);
-$dark-grey : #001e14; 
-// $dark-grey : #1F1B24;
-$overlay: mix($dark-grey, white, 95%);
-$overlay-light: mix($dark-grey, white, 86%);
+// optix colors
+$optix-green:rgba(rgb(178, 242, 24), 1.0);
+$optix-blue: rgba(rgb(0, 181, 207), 1.0); 
+$optix-navy: rgba(rgb(7, 29, 98), 1.0); 
+$optix-overlayblue: mix($optix-blue, white, 69%);
+
+$high-emph: #16a34a; 
+$med-emph: #171717; 
+$low-emph: rgba(rgb(255, 255, 255), 0.38);
+$dark-grey : #e2e8f0; 
+$overlay: #f8fafc;
+$overlay-light: #f1f5f9;
+
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+* {
+    font-family: "Inter", sans-serif !important;
+}
+@supports (font-variation-settings: normal) {
+    * {
+        font-family: "Inter var", sans-serif !important;
+    }
+}
+
 
 html, body, input, textarea, select, button {   
   color: $high-emph !important;
@@ -12,15 +29,22 @@ html, body, input, textarea, select, button {
 }
 
 a {
-    color: rgb(198, 73, 73) !important;
+    color: rgb(75, 186, 255) !important;
 }
 
 a:hover {
-    color:$high-emph !important;
+    color:$optix-blue !important;
 }
 
-.site-title, .site-title:visited, .site-nav, .page-link {
+.site-title, .site-title:visited {
     color: $high-emph !important;
+    font-weight: bolder;
+}
+
+
+.site-nav, .page-link{
+    color:$med-emph!important;
+    
 }
 
 .site-nav {
