@@ -4,25 +4,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Binary Logic and Abstraction | LangBGK Toteo</title>
+<title>Binary Logic and Abstraction | pgk</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Binary Logic and Abstraction" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Taking a look at binary abstractions (ASCII, Unicode, Images),logic gates, etc" />
 <meta property="og:description" content="Taking a look at binary abstractions (ASCII, Unicode, Images),logic gates, etc" />
-<link rel="canonical" href="https://pgk-lang.github.io/PGKBlog/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html" />
-<meta property="og:url" content="https://pgk-lang.github.io/PGKBlog/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html" />
-<meta property="og:site_name" content="LangBGK Toteo" />
-<meta property="og:image" content="https://pgk-lang.github.io/PGKBlog/images/apcsp.png" />
+<link rel="canonical" href="https://pgk-lang.github.io/pgk/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html" />
+<meta property="og:url" content="https://pgk-lang.github.io/pgk/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html" />
+<meta property="og:site_name" content="pgk" />
+<meta property="og:image" content="https://pgk-lang.github.io/pgk/images/apcsp.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-11-14T00:00:00-06:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://pgk-lang.github.io/PGKBlog/images/apcsp.png" />
+<meta property="twitter:image" content="https://pgk-lang.github.io/pgk/images/apcsp.png" />
 <meta property="twitter:title" content="Binary Logic and Abstraction" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-14T00:00:00-06:00","datePublished":"2022-11-14T00:00:00-06:00","description":"Taking a look at binary abstractions (ASCII, Unicode, Images),logic gates, etc","headline":"Binary Logic and Abstraction","image":"https://pgk-lang.github.io/PGKBlog/images/apcsp.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://pgk-lang.github.io/PGKBlog/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html"},"url":"https://pgk-lang.github.io/PGKBlog/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-14T00:00:00-06:00","datePublished":"2022-11-14T00:00:00-06:00","description":"Taking a look at binary abstractions (ASCII, Unicode, Images),logic gates, etc","headline":"Binary Logic and Abstraction","image":"https://pgk-lang.github.io/pgk/images/apcsp.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://pgk-lang.github.io/pgk/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html"},"url":"https://pgk-lang.github.io/pgk/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/PGKBlog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://pgk-lang.github.io/PGKBlog/feed.xml" title="LangBGK Toteo" /><link rel="shortcut icon" type="image/x-icon" href="/PGKBlog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="/pgk/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://pgk-lang.github.io/pgk/feed.xml" title="pgk" /><link rel="shortcut icon" type="image/x-icon" href="/pgk/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
 <script>
@@ -57,7 +57,7 @@ window.onload = wrap_img;
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/PGKBlog/">LangBGK Toteo</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/pgk/">pgk</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -67,7 +67,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/PGKBlog/schedule">Schedule</a><a class="page-link" href="/PGKBlog/frontend/overview">Frontend</a><a class="page-link" href="/PGKBlog/api/overview">API</a><a class="page-link" href="/PGKBlog/search/">Search</a><a class="page-link" href="/PGKBlog/categories/ap">AP Standards</a><a class="page-link" href="/PGKBlog/categories/cte">CTE Standards</a><a class="page-link" href="/PGKBlog/about/">About</a></div>
+        <div class="trigger"><a class="page-link" href="/pgk/schedule">Schedule</a><a class="page-link" href="/pgk/frontend/overview">Frontend</a><a class="page-link" href="/pgk/api/overview">API</a><a class="page-link" href="/pgk/search/">Search</a><a class="page-link" href="/pgk/categories/ap">AP Standards</a><a class="page-link" href="/pgk/categories/cte">CTE Standards</a><a class="page-link" href="/pgk/about/">About</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -88,19 +88,19 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-          <a class="category-tags-link" href="/PGKBlog/categories/ap#1.D">1.D</a>
+          <a class="category-tags-link" href="/pgk/categories/ap#1.D">1.D</a>
         
         &nbsp;
       
-          <a class="category-tags-link" href="/PGKBlog/categories/ap#2.B">2.B</a>
+          <a class="category-tags-link" href="/pgk/categories/ap#2.B">2.B</a>
         
         &nbsp;
       
-          <a class="category-tags-link" href="/PGKBlog/categories/ap#3.C">3.C</a>
+          <a class="category-tags-link" href="/pgk/categories/ap#3.C">3.C</a>
         
         &nbsp;
       
-          <a class="category-tags-link" href="/PGKBlog/categories/cte#C4/4">C4/4</a>
+          <a class="category-tags-link" href="/pgk/categories/cte#C4/4">C4/4</a>
         
         
       
@@ -188,7 +188,7 @@ Look for shift on <a href="https://www.w3schools.com/js/js_bitwise.asp">w3school
   <ul>
     <li>In an arithmetic shift, the bits that are shifted out of either end are discarded.</li>
     <li>In a left arithmetic shift, zeros are shifted in on the right.
-<img src="/PGKBlog/images/logic_of_shift.png" alt="">
+<img src="/pgk/images/logic_of_shift.png" alt="">
 </li>
   </ul>
 </blockquote>
@@ -203,7 +203,7 @@ Look for shift on <a href="https://www.w3schools.com/js/js_bitwise.asp">w3school
     <li>This example shows negative and positive numbers, using technique called Twos Complement.</li>
     <li>In the first case, the leftmost digit was shifted past the end of the register, and a new 0 was shifted into the rightmost position. Positive Multiply.</li>
     <li>In the second case, the rightmost 1 was shifted out, and a new 1 was copied into the leftmost position, preserving the sign of the number. Negative Divide, this example obviously needs more study.
-<img src="/PGKBlog/images/elaboration_of_shift.png" alt="">
+<img src="/pgk/images/elaboration_of_shift.png" alt="">
 </li>
   </ul>
 </blockquote>
@@ -215,7 +215,7 @@ Look for shift on <a href="https://www.w3schools.com/js/js_bitwise.asp">w3school
   <ul>
     <li><em>n Right Shifts (divides by 2^n); n Left Shifts (multiplies by 2^n)</em></li>
     <li>Add buttons for  “«”   and  “ »”
-<img src="/PGKBlog/images/binary_shift.png" alt="">
+<img src="/pgk/images/binary_shift.png" alt="">
 </li>
   </ul>
 </blockquote>
@@ -237,7 +237,7 @@ Look for shift on <a href="https://www.w3schools.com/js/js_bitwise.asp">w3school
     <li>UTF-8</li>
     <li>UTF-16</li>
     <li>UTF-32
-<img src="/PGKBlog/images/sample_unicode.png" alt="">
+<img src="/pgk/images/sample_unicode.png" alt="">
 <em>Sample of Unicode characters.</em>
 </li>
   </ul>
@@ -247,7 +247,7 @@ Look for shift on <a href="https://www.w3schools.com/js/js_bitwise.asp">w3school
 <a class="anchor" href="#ui-conceptdesign-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>UI Concept/Design</h3>
 <blockquote>
   <p>The ASCII value in picture should be change based off of the bits in evaluation you are doing.  Bits displayed, label, and evaluation would be specific to evaluation type:
-<img src="/PGKBlog/images/ascii_label.png" alt="">
+<img src="/pgk/images/ascii_label.png" alt="">
 <em>Original ASCII</em></p>
 </blockquote>
 
@@ -322,14 +322,14 @@ Look for shift on <a href="https://www.w3schools.com/js/js_bitwise.asp">w3school
   </tbody>
 </table>
 
-<p><img src="/PGKBlog/images/color_code.png" alt="">
+<p><img src="/pgk/images/color_code.png" alt="">
 <em>255 * 255 * 255 combinations of R, G, B</em></p>
 
 <h3 id="ui-design">
 <a class="anchor" href="#ui-design" aria-hidden="true"><span class="octicon octicon-link"></span></a>UI Design</h3>
 <blockquote>
   <p>Here is a sample program a student used to visualize color by turning buttons on and off.
-<img src="/PGKBlog/images/color_block.png" alt="">
+<img src="/pgk/images/color_block.png" alt="">
 <em>by Anthony Vo</em>
 3 rows representing R, G, B 
 Resulting color displayed in block</p>
@@ -352,7 +352,7 @@ Resulting color displayed in block</p>
   <ul>
     <li>Establish check boxes for A / B on and off</li>
     <li>Show result of Boolean Expression using Gate visual
-<img src="/PGKBlog/images/logic_gates.png" alt="">
+<img src="/pgk/images/logic_gates.png" alt="">
 <em>Logic Gates</em>
 </li>
   </ul>
@@ -362,7 +362,7 @@ Resulting color displayed in block</p>
 <a class="anchor" href="#ui-design-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>UI Design</h3>
 <blockquote>
   <p>Logic gate lab in JavaScript
-<img src="/PGKBlog/images/logic_gate_lab.png" alt="">
+<img src="/pgk/images/logic_gate_lab.png" alt="">
 <em>by Kylie Scharf</em>
 AB checkboxes with Submit button
 Table with Symbol, Description, and Result</p>
@@ -395,7 +395,7 @@ Table with Symbol, Description, and Result</p>
 <a class="anchor" href="#practical-application" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practical Application</h3>
 <blockquote>
   <p>Logic gates are used everywhere
-<img src="/PGKBlog/images/logic_gate_application.png" alt=""></p>
+<img src="/pgk/images/logic_gate_application.png" alt=""></p>
 </blockquote>
 
 <h2 id="unsigned-addition">
@@ -404,13 +404,13 @@ Table with Symbol, Description, and Result</p>
 
 <h3 id="initial-ui-implementation">
 <a class="anchor" href="#initial-ui-implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial UI Implementation</h3>
-<p><img src="/PGKBlog/images/binary_math_conversion.png" alt="">
+<p><img src="/pgk/images/binary_math_conversion.png" alt="">
 Action buttons for +1 and -1
 Additional actions for Turn On and Turn Off</p>
 
 <h3 id="unsigned-addition-1">
 <a class="anchor" href="#unsigned-addition-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unsigned Addition</h3>
-<p><img src="/PGKBlog/images/unsigned_addition.png" alt=""></p>
+<p><img src="/pgk/images/unsigned_addition.png" alt=""></p>
 
 <h2 id="signed-addition">
 <a class="anchor" href="#signed-addition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Signed Addition</h2>
@@ -418,17 +418,17 @@ Additional actions for Turn On and Turn Off</p>
 
 <h3 id="common-concept-for-integer-math">
 <a class="anchor" href="#common-concept-for-integer-math" aria-hidden="true"><span class="octicon octicon-link"></span></a>Common concept for Integer Math</h3>
-<p><img src="/PGKBlog/images/integer_math_pos.png" alt="">
+<p><img src="/pgk/images/integer_math_pos.png" alt="">
 <em>Positive number</em></p>
 
 <h3 id="basic-concept-but-not-typically-used">
 <a class="anchor" href="#basic-concept-but-not-typically-used" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic concept, but not typically used</h3>
-<p><img src="/PGKBlog/images/integer_math_neg.png" alt="">
+<p><img src="/pgk/images/integer_math_neg.png" alt="">
 <em>Negative number</em></p>
 
 <h3 id="inverting-numbers-twos-complement">
 <a class="anchor" href="#inverting-numbers-twos-complement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inverting numbers, twos complement</h3>
-<p><img src="/PGKBlog/images/twos_complement.png" alt="">
+<p><img src="/pgk/images/twos_complement.png" alt="">
 <em>Two’s complement allows adding for signed and unsigned numbers</em></p>
 
 <p>Basic concept is to invert/negate bits to produce negative. This allows numbers to be added together for expected results. » and »&gt; have been adapted to handle signed and zero filled shifting.</p>
@@ -441,7 +441,7 @@ Additional actions for Turn On and Turn Off</p>
 
 <h3 id="algorithm-in-jinja2-to-limit-bits-per-row">
 <a class="anchor" href="#algorithm-in-jinja2-to-limit-bits-per-row" aria-hidden="true"><span class="octicon octicon-link"></span></a>Algorithm in Jinja2 to limit Bits per row</h3>
-<p><img src="/PGKBlog/images/binary_math_conversion_example.png" alt="">
+<p><img src="/pgk/images/binary_math_conversion_example.png" alt="">
 <em>8 images per row by Kylie Scharf</em>
 Modulo 8 algorithm add &lt;tr&gt; for every eight bits (code).</p>
 
@@ -462,27 +462,27 @@ Modulo 8 algorithm add &lt;tr&gt; for every eight bits (code).</p>
   </ul>
 </blockquote>
 
-  </div><a class="u-url" href="/PGKBlog/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html" hidden></a>
+  </div><a class="u-url" href="/pgk/1.d/2.b/3.c/c4/4/2022/11/14/AP-binary_logic.html" hidden></a>
 </article>
 
       </div>
     </main><footer class="site-footer h-card">
-  <data class="u-url" href="/PGKBlog/"></data>
+  <data class="u-url" href="/pgk/"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          <a href="/PGKBlog/feed.xml">
+          <a href="/pgk/feed.xml">
             <svg class="svg-icon orange">
-              <use xlink:href="/PGKBlog/assets/minima-social-icons.svg#rss"></use>
+              <use xlink:href="/pgk/assets/minima-social-icons.svg#rss"></use>
             </svg><span>Subscribe</span>
           </a>
         </p>
       </div>
       <div class="footer-col">
-        <p>Project repo for the our CSP scrum team.</p>
+        <p>Blog for our CSP scrum team.</p>
       </div>
     </div>
 

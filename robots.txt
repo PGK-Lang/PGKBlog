@@ -1,1 +1,1 @@
-Sitemap: https://pgk-lang.github.io/PGKBlog/sitemap.xml
+Sitemap: https://pgk-lang.github.io/pgk/sitemap.xml
