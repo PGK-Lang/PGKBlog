@@ -1,28 +1,67 @@
 ---
 layout: home
-image: images/logo.png
 ---
-## Objectives
 
-<div>
+<html>
 
-    <div style="float: left; margin: 0px 10px 10px 0px;">
-        <a href="https://docs.google.com/document/d/1ibm_4fqSgfnRZKhUns2vVe83MVes70Ts/edit?usp=sharing&ouid=115023546255406346351&rtpof=true&sd=true">
-            <img atl="Course Framework" src="{{site.baseurl}}/images/apcsp.png" title="Course Framework inspired by Domingo David"
-            width="200">
-        </a>
-    </div>
-    <div>
-        <hr>
-        <p>
-            This Conceptual Framework teaches College Boards 5 Big Ideas of AP Computer Science Principles, Python, JavaScript, and Web Site application development together in an integrated fashion.  The purpose is to teach College Board requirements while adding languages, tools, frameworks, and methodologies that meet Career Technical Education (CTE) needs.  The outcome is preparing the High School student for the AP Test and simultaneously building the skills required for Computer Science internships.
-        </p>
-        <hr>
-    </div>
+<body>
 
-</div>
+    <h1 id="typewriter" />
 
+</body>
+
+<style>
+    html {
+        background-color: black;
+        background-image: url("https://c.tenor.com/WqGAHHUPOeEAAAAC/edp445-edp445death-stare.gif");
+    }
+
+    body {
+        animation: fadeIn 0.25s ease-in;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    #container {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        transform: rotate(45deg);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+</style>
+
+<script>
+    var i = 0;
+    var txt = "pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk pgk ";
+
+    var speed = 100;
+    function typeWriter(x) {
+
+        if (i <= txt.length) {
+            document.getElementById("typewriter").innerHTML = '\xa0' + txt.substring(0, i)
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+
+    }
+
+    typeWriter();
+
+</script>
+
+</html>
 
 ## Blogs
-
-
