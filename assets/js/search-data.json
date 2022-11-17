@@ -29,7 +29,7 @@
   
       ,"page2": {
           "title": "",
-          "content": ". Blogs .",
+          "content": "&lt;/body&gt; &lt;/html&gt; ## Blogs .",
           "url": "https://pgk-lang.github.io/pgk/",
           "relUrl": "/",
           "date": ""
