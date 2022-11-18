@@ -3,10 +3,10 @@ title: Lesson Plan For Sections 8 and 10 (Unit 3)
 description: Lesson Plan For Sections 8 and 10 (Unit 3)  
 comments: false
 permalink: /posts/lesson
+layout: post
 ---
 
 > Referenced from the [APCSP course & exam description by collegeboard](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-course-and-exam-description.pdf)
-
 
 ## Goals
  - Section 8: Iteration
@@ -23,27 +23,45 @@ permalink: /posts/lesson
     - Implement an algorithmic process with iteration to manipulate data
         - Includes I/O 
         - Write pseudocode
-    ``` 
-    {
-        # Manipulate data and filter out odd numbers
+        - ```python
+            # Manipulate data and filter out odd numbers
 
-        data = [1,2,3,4,5,6,7,8,9,10]
-        new_data = []
+            data = [1,2,3,4,5,6,7,8,9,10]
+            new_data = []
 
-        for num in data:
-            if num % 2 == 1:
-                continue
-            else:
-                new_data.append(num)
+            for num in data:
+                if num % 2 == 1:
+                    continue
+                else:
+                    new_data.append(num)
 
 
-        print(data)
-        print(new_data)
-    
-    } 
-    ```
+            print(data)
+            print(new_data)
+            ```
     - Example: 
-      - Fibonnaci using a list. Stop when the number is a factor of 12
+      - Fibonnaci sequence using iteration by use of a while loop.
+      - ```python
+            x = 2
+            
+            # Uses a while loop to iterate through numbers of the fibonacci sequence and stops at the number that which is a factor of 12
+            while (True):
+                x = x + (x-1)
+                print(x)
+
+                if(x % 12 == 0): break
+        ```
 - Section 10: 
+    -  Compare lists & typical variables
+       -  Access values by index
+       -  Useful for iteration
+    -  Can be mutated & modified
+       -  ```python
+            class_list = ["rohin", "rohin2", "rohin3"]
+            
+            # removes name from list if false is returned when called
+            for name in class_list:
+                if not bool(input(name)): class_name.remove(name)
+        ```
     -  
 
