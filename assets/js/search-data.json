@@ -2,17 +2,6 @@
   
     
         "post0": {
-            "title": "deadass?",
-            "content": "arr = [9,1,5,6,3,7,2,8] def insertion_sort(arr): for index in range(1,len(arr)): # repeats through length of the array value = arr[index] i = index - 1 while i &gt;= 0: if value &lt; arr[i]: arr[i+1] = arr[i] # shift number in slot i to the right arr[i] = value # shift value left into slot i i = i - 1 else: break IS = insertion_sort(arr) print(arr) . [1, 2, 3, 5, 6, 7, 8, 9] .",
-            "url": "https://pgk-lang.github.io/pgk/2022/11/29/Section-Eight.html",
-            "relUrl": "/2022/11/29/Section-Eight.html",
-            "date": " • Nov 29, 2022"
-        }
-        
-    
-  
-    
-        ,"post1": {
             "title": "Lesson Plan For Sections 8 and 10 (Unit 3)",
             "content": "Referenced from the APCSP course &amp; exam description by collegeboard . Goals . Section 8: Iteration 2.A Represent algorithmic processes without using a programming language. | 2.B Implement and apply an algorithm. | 4.B Determine the result of code segments | . | Section 10: Lists 2.A Utilize such as append and remove methods to mutate lists | 2.B Implement and apply an algorithm using iteration | 4.B Determine the result of code segments | . | . Planned Homework/Hacks . Section 8: Implement an algorithmic process with iteration to manipulate data Includes I/O | Write pseudocode | # Manipulate data and filter out odd numbers data = [1,2,3,4,5,6,7,8,9,10] new_data = [] for num in data: if num % 2 == 1: continue else: new_data.append(num) print(data) print(new_data) . | . | Example: Fibonnaci sequence using iteration by use of a while loop. | x = 2 # Uses a while loop to iterate through numbers of the fibonacci sequence and stops at the number that which is a factor of 12 while (True): x = x + (x-1) print(x) if(x % 12 == 0): break . | . | . | Section 10: Compare lists &amp; typical variables Access values by index | Useful for iteration | . | Can be mutated &amp; modified class_list = [&quot;rohin&quot;, &quot;rohin2&quot;, &quot;rohin3&quot;] # removes name from list if false is returned when called for name in class_list: if not bool(input(name)): class_name.remove(name) . | . | | . | .",
             "url": "https://pgk-lang.github.io/pgk/posts/lesson",
