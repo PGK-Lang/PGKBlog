@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      8 min read
     
 </span></p>
 
@@ -135,7 +135,15 @@ window.onload = wrap_img;
 <ul>
 <li class="toc-entry toc-h3"><a href="#Adding-Something-to-a-List">Adding Something to a List </a></li>
 <li class="toc-entry toc-h3"><a href="#Removing-Items">Removing Items </a></li>
-<li class="toc-entry toc-h3"><a href="#Practice">Practice </a></li>
+<li class="toc-entry toc-h3"><a href="#Practice">Practice </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Question-1">Question 1 </a></li>
+<li class="toc-entry toc-h4"><a href="#Question-2">Question 2 </a></li>
+<li class="toc-entry toc-h4"><a href="#Question-3">Question 3 </a></li>
+<li class="toc-entry toc-h4"><a href="#Question-4">Question 4 </a></li>
+<li class="toc-entry toc-h4"><a href="#Question-5">Question 5 </a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -475,6 +483,9 @@ Fruits after remove (removing kiwi): ['banana', 'pomegranate']
 <h3 id="Practice">
 <a class="anchor" href="#Practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practice<a class="anchor-link" href="#Practice"> </a>
 </h3>
+<h4 id="Question-1">
+<a class="anchor" href="#Question-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 1<a class="anchor-link" href="#Question-1"> </a>
+</h4>
 <p><strong>Consider the Following Code Segment</strong></p>
 
 <pre><code>{
@@ -495,6 +506,9 @@ Fruits after remove (removing kiwi): ['banana', 'pomegranate']
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Question-2">
+<a class="anchor" href="#Question-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 2<a class="anchor-link" href="#Question-2"> </a>
+</h4>
 <p><strong>In each instance, would we use a list?</strong>
 We want to represent a sequence of children in order. <br>
 We want to represent the number of animals in a zoo. <br>
@@ -512,9 +526,67 @@ We want to represent the grades of a classroom <br></p>
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Question-3">
+<a class="anchor" href="#Question-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 3<a class="anchor-link" href="#Question-3"> </a>
+</h4>
+<pre><code>{
+mgAmounts ← [50, 230, 63, 98, 80, 120, 71, 158, 41]
+bestAmounts ← []
+mgPerDay ← 360
+mgMin ← mgPerDay * 0.3
+FOR EACH mgAmount IN mgAmounts
+{
+    IF (mgAmount ≥ mgMin)
+    {
+        &lt;MISSING CODE&gt;
+    }
+} 
+}</code></pre>
+<p><strong>What can replace <missing code=""> so that this program will work as expected?&lt;/strong&gt;
+However, there may multiple answers
+a. INSERT(bestAmounts, mgAmount)
+b. APPEND(bestAmounts, mgAmount)
+c. INSERT(bestAmounts, mgAmounts)
+d. INSERT(mgAmounts, mgAmount)
+e. APPEND(bestAmounts, mgAmounts)
+f. APPEND(mgAmounts, mgAmount)&lt;/p&gt;
+<details closed="">
+<summary>Answer!</summary>
+Only b, as it is the only item that correctly uses the method and doesn't improperly extend the length.
+</details>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Question-4">
+<a class="anchor" href="#Question-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 4<a class="anchor-link" href="#Question-4"> </a>
+</h4>
+<p><strong>Consider the following code segment</strong></p>
+
+<pre><code>{
+sevenWonders ← ["Aurora", "Grand Canyon", "Great Barrier Reef", "Guanabara Bay", "Mount Everest", "Parícutin", "Victoria Falls"]
+
+sevenWonders[4] ← "Komodo"
+sevenWonders[6] ← "Table Mountain"
+}</code></pre>
+<p><strong>What does <code>sevenWonders</code> store?</strong></p>
+<details closed="">
+<summary>Answer!</summary>
+"Aurora", "Grand Canyon", "Great Barrier Reef", "Komodo", "Mount Everest", "Table Mountain", "Victoria Falls"
+</details>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Question-5">
+<a class="anchor" href="#Question-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 5<a class="anchor-link" href="#Question-5"> </a>
+</h4>
 <p><strong>Consider the Following Code Segment</strong></p>
 
 <pre><code>{
@@ -526,8 +598,10 @@ lst.append('x')
 lst.insert(lst[0])
 
 print(lst.pop())
+print(lst)
 
 }</code></pre>
+<p><em>What would this display</em></p>
 <details closed="">
 <summary>Answer!</summary>
 :P try and get it without checking the answer!
@@ -555,6 +629,189 @@ print(lst.pop())
 <br>
 However, recall that each list item is at an <code>index</code>, and we can't exceed the number of indices that an element has, otherwise we get a <code>IndexError: List out of range</code></p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>The two programs below are both intended to display the total number of hours from a list of durations in minutes.</strong></p>
+<p>Program One:</p>
+
+<pre><code>{
+totalMins ← 0
+durations ← [32, 56, 28, 27]
+FOR EACH duration IN durations
+{
+   totalMins ← totalMins + duration
+}
+totalHours ← totalMins / 60
+DISPLAY(totalHours)
+}</code></pre>
+<p>Program Two</p>
+
+<pre><code>{
+totalMins ← 0
+durations ← [32, 56, 28, 27]
+FOR EACH duration IN durations
+{
+   totalMins ← totalMins + duration
+   totalHours ← totalMins / 60
+}
+DISPLAY(totalHours)
+}</code></pre>
+<p>a. Program 1 displays the correct total number of hours, while Program 2 does not. <br>
+b. Program 2 displays the correct total number of hours, while Program 1 does not. <br>
+c. Both programs display the correct total number of hours, but Program 1 unnecessarily repeats arithmetic operations. <br>
+d. Both programs display the correct total number of hours, but Program 2 unnecessarily repeats arithmetic operations. <br></p>
+<details closed="">
+<summary>Answer!</summary>
+Correct answer: d
+</details>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>A javelin thrower is writing code to track the distance of their throws and how far they are from their target distance.</strong>
+This is what they have so far:</p>
+
+<pre><code>{
+totalDistance ← 0
+targetDistance ← 90
+throw1 ←  85.2
+DISPLAY(targetDistance - throw1)
+totalDistance ← totalDistance + throw1
+throw2 ←  82.8
+DISPLAY(targetDistance - throw2)
+totalDistance ← totalDistance + throw2
+throw3 ←  87.3
+DISPLAY(targetDistance - throw3)
+totalDistance ← totalDistance + throw3
+avgDistance ← totalDistance / 3
+DISPLAY(avgDistance)</code></pre>
+<p><strong>A friend points out that they can reduce the complexity of their code by using the abstractions of lists and loops. The programmer decides to "refactor" the code, to rewrite it so that it produces the same output but is structured better.</strong> <br></p>
+<p><strong>Which of these is the best refactor of the code?</strong> <br>
+These are all closed so you can see each without being eye-bombed.
+<br></p>
+<details closed="">
+<summary> a </summary>
+<code>
+targetDistance ← 90 <br>
+throws ← [85.2, 82.8, 87.3]<br>
+totalDistance ← 0<br>
+FOR EACH throw IN throws<br>
+{<br>
+    DISPLAY(targetDistance - throw)<br>
+    totalDistance ← totalDistance + throw<br>
+}<br>
+avgDistance ← totalDistance / LENGTH(throws)<br>
+DISPLAY(avgDistance)<br>
+</code>
+</details>
+<br>
+<details closed="">
+<summary> b </summary>
+<code>
+targetDistance ← 90<br>
+throws ← [85.2, 82.8, 87.3]<br>
+totalDistance ← 0<br>
+FOR EACH throw IN throws<br>
+{<br>
+    DISPLAY(targetDistance - throw)<br>
+    totalDistance ← totalDistance + throw<br>
+}<br>
+avgDistance ← totalDistance / 3<br>
+DISPLAY(avgDistance)<br>
+</code>
+</details>
+<br>
+<details closed="">
+<summary> c </summary>
+<code>
+targetDistance ← 90<br>
+throws ← [85.2, 82.8, 87.3]<br>
+totalDistance ← 0<br>
+FOR EACH throw IN throws<br>
+{<br>
+    DISPLAY(targetDistance - throw)<br>
+    totalDistance ← totalDistance + throw <br>
+    avgDistance ← totalDistance / LENGTH(throws)<br>
+}<br>
+DISPLAY(avgDistance)<br>
+</code>
+</details>
+<br>
+<details closed="">
+<summary> d </summary>
+<code>
+targetDistance ← 90<br>
+throws ← [85.2, 82.8, 87.3]<br>
+FOR EACH throw IN throws<br>
+{<br>
+    totalDistance ← 0<br>
+    DISPLAY(targetDistance - throw)<br>
+    totalDistance ← totalDistance + throw <br>
+    avgDistance ← totalDistance / LENGTH(throws)<br>
+}<br>
+DISPLAY(avgDistance)<br>
+</code>
+</details>
+<br>
+<details closed="">
+<summary> e </summary>
+<code>
+targetDistance ← 90<br>
+throws ← [85.2, 82.8, 87.3]<br>
+FOR EACH throw IN throws<br>
+{<br>
+    totalDistance ← 0<br>
+    DISPLAY(targetDistance - throw)<br>
+    totalDistance ← totalDistance + throw<br>
+}<br>
+avgDistance ← totalDistance / LENGTH(throws)<br>
+DISPLAY(avgDistance)<br>
+</code>
+</details>
+<br>
+<details closed="">
+<summary>Answer!</summary>
+Correct answer: a
+</details>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>The following code snippet processes a list of strings with a loop and conditionals:</strong></p>
+
+<pre><code>{
+words ← ["cab", "lab", "cable", "cables", "bales", "bale"]
+wordScore ← 0
+FOR EACH word IN words {
+    IF (LEN(word) ≥ 5) {
+        wordScore ← wordScore + 3
+    } ELSE {
+        IF (LEN(word) ≥ 4) {
+            wordScore ← wordScore + 2
+        } ELSE {
+            IF (LEN(word) ≥ 3) {
+                wordScore ← wordScore + 1
+            }
+        }
+    }
+}
+DISPLAY(wordScore)
+}</code></pre>
+<p><strong>The code relies on one string procedure, LEN(string), which returns the number of characters in the string.</strong> <br>
+<strong>What value will this program display?</strong>
+<br></p>
+<details closed="">
+<summary>Answer!</summary>
+Correct answer: 13
+</details>
 </div>
 </div>
 </div>
@@ -722,8 +979,13 @@ array after sort [1, 2, 3, 5, 6, 7, 8, 9]
 </div>
     
 
-</div>
+&lt;/div&gt;
+ 
 
+</missing></strong></p>
+</div>
+</div></div>
+</div>
 
 
   </div><!-- from https://github.com/utterance/utterances -->
