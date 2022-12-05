@@ -37,6 +37,17 @@
   
   
       ,"page0": {
+          "title": "",
+          "content": ".",
+          "url": "https://pgk-lang.github.io/pgk/quiz.html",
+          "relUrl": "/quiz.html",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page1": {
           "title": "About",
           "content": "About . PGK-Lang scrum team fastpages made by Rohin, Varalu, Ryan, and Advay .",
           "url": "https://pgk-lang.github.io/pgk/about/",
@@ -49,7 +60,7 @@
   
 
   
-      ,"page2": {
+      ,"page3": {
           "title": "",
           "content": "&lt;/body&gt; &lt;/html&gt; ## Blogs .",
           "url": "https://pgk-lang.github.io/pgk/",
@@ -78,7 +89,7 @@
   
 
   
-      ,"page9": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://pgk-lang.github.io/pgk/robots.txt",
