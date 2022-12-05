@@ -4,7 +4,6 @@ layout: page
 search_exclude: false
 title: Lists & Iteration Quiz
 ---
-
 <body>
 
 <div id="quiz-container"></div>
