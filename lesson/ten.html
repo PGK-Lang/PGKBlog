@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      9 min read
     
 </span></p>
 
@@ -146,6 +146,12 @@ window.onload = wrap_img;
 </li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#Nested-Lists">Nested Lists </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Uses-of-Nested-lists">Uses of Nested lists </a></li>
+<li class="toc-entry toc-h2"><a href="#You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later">You can also iterate over these using multiple loops, but we&#39;ll talk about that later </a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#Iterating-Through-a-List-and-Sorting">Iterating Through a List and Sorting </a>
@@ -612,6 +618,121 @@ print(lst)
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Nested-Lists">
+<a class="anchor" href="#Nested-Lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested Lists<a class="anchor-link" href="#Nested-Lists"> </a>
+</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Uses-of-Nested-lists">
+<a class="anchor" href="#Uses-of-Nested-lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Uses of Nested lists<a class="anchor-link" href="#Uses-of-Nested-lists"> </a>
+</h2>
+<p>Placing lists within lists allows you to have arrays of similar data together, and create complexity. <br></p>
+<p>Some uses include:</p>
+<ul>
+<li>Creating 2d Arrays </li>
+<li>Storing similar, but slightly different categories (sublists)</li>
+<li>Create a matrix</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">TwoDArray</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">TwoDArray</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># print first sublist</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">TwoDArray</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># print second sublist</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">TwoDArray</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># print third sublist</span>
+
+<span class="c1"># These 1s and 0s could represent anything. AMAZING DATA ABSTRACTION!</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1, 0, 1, 0, 1, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 1, 1]
+[1, 1, 0, 0, 0, 1, 1, 1]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later">
+<a class="anchor" href="#You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later" aria-hidden="true"><span class="octicon octicon-link"></span></a>You can also iterate over these using multiple loops, but we'll talk about that later<a class="anchor-link" href="#You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later"> </a>
+</h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bin_0</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">bin_1</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">array</span> <span class="ow">in</span> <span class="n">TwoDArray</span><span class="p">:</span>
+    <span class="k">for</span> <span class="nb">bin</span> <span class="ow">in</span> <span class="n">array</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">bin</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">bin_0</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="nb">bin</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">bin_1</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Num 0s: </span><span class="si">{</span><span class="n">bin_0</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Num 1s: </span><span class="si">{</span><span class="n">bin_1</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Num 0s: 17
+Num 1s: 15
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Iterating-Through-a-List-and-Sorting">
 <a class="anchor" href="#Iterating-Through-a-List-and-Sorting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Iterating Through a List and Sorting<a class="anchor-link" href="#Iterating-Through-a-List-and-Sorting"> </a>
 </h1>
@@ -894,7 +1015,7 @@ array after sort [1, 2, 3, 5, 6, 7, 8, 9]
 <span class="sd">'''</span>
 <span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
 
-<span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"/Users/vn1/Documents/insertionsort.png"</span><span class="p">)</span>
+<span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"../images/insertionsort.png"</span><span class="p">)</span>
  
 <span class="n">display</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
 </pre></div>
@@ -951,7 +1072,7 @@ array after sort [1, 2, 3, 5, 6, 7, 8, 9]
 <span class="sd">'''</span>
 <span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
 
-<span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"/Users/vn1/Documents/bubble_sort.png"</span><span class="p">)</span>
+<span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"../images/bubble_sort.png"</span><span class="p">)</span>
  
 <span class="n">display</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
 </pre></div>
