@@ -1,8 +1,8 @@
 ---
-permalink: /quiz.html
+permalink: /quiz
 layout: page
 search_exclude: false
-title: Lists & Iteration Quiz
+title: Quiz
 ---
 
 <body>
