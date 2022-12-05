@@ -13,12 +13,14 @@
 <link rel="canonical" href="https://pgk-lang.github.io/pgk/lesson/ten" />
 <meta property="og:url" content="https://pgk-lang.github.io/pgk/lesson/ten" />
 <meta property="og:site_name" content="pgk" />
+<meta property="og:image" content="https://pgk-lang.github.io/pgk/None" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-11-29T00:00:00-06:00" />
-<meta name="twitter:card" content="summary" />
+<meta property="article:published_time" content="2022-12-05T00:00:00-06:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://pgk-lang.github.io/pgk/None" />
 <meta property="twitter:title" content="Section 10 - Lists" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-29T00:00:00-06:00","datePublished":"2022-11-29T00:00:00-06:00","description":"Notes on Lists","headline":"Section 10 - Lists","mainEntityOfPage":{"@type":"WebPage","@id":"https://pgk-lang.github.io/pgk/lesson/ten"},"url":"https://pgk-lang.github.io/pgk/lesson/ten"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-05T00:00:00-06:00","datePublished":"2022-12-05T00:00:00-06:00","description":"Notes on Lists","headline":"Section 10 - Lists","image":"https://pgk-lang.github.io/pgk/None","mainEntityOfPage":{"@type":"WebPage","@id":"https://pgk-lang.github.io/pgk/lesson/ten"},"url":"https://pgk-lang.github.io/pgk/lesson/ten"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/pgk/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://pgk-lang.github.io/pgk/feed.xml" title="pgk" /><link rel="shortcut icon" type="image/x-icon" href="/pgk/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,13 +75,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Section 10 - Lists</h1><p class="page-description">Notes on Lists</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-11-29T00:00:00-06:00" itemprop="datePublished">
-        Nov 29, 2022
+    <h1 class="post-title p-name" itemprop="name headline">Section 10 - Lists</h1><p class="page-description">Notes on Lists</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-05T00:00:00-06:00" itemprop="datePublished">
+        Dec 5, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      9 min read
+      2 min read
     
 </span></p>
 
@@ -98,24 +100,24 @@ window.onload = wrap_img;
         <div class="pb-5 d-flex flex-justify-center">
           <div class="px-2">
 
-    <a href="https://github.com/PGK-Lang/pgk/tree/master/_notebooks/2022-11-29-Section-Ten.ipynb" role="button" target="_blank">
+    <a href="https://github.com/PGK-Lang/pgk/tree/master/_notebooks/2022-12-05-iteration.ipynb" role="button" target="_blank">
 <img class="notebook-badge-image" src="/pgk/assets/badges/github.svg" alt="View On GitHub">
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/PGK-Lang/pgk/master?filepath=_notebooks%2F2022-11-29-Section-Ten.ipynb" target="_blank">
+    <a href="https://mybinder.org/v2/gh/PGK-Lang/pgk/master?filepath=_notebooks%2F2022-12-05-iteration.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/pgk/assets/badges/binder.svg" alt="Open In Binder"/>
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/PGK-Lang/pgk/blob/master/_notebooks/2022-11-29-Section-Ten.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/PGK-Lang/pgk/blob/master/_notebooks/2022-12-05-iteration.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/pgk/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
           <div class="px-2">
-  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FPGK-Lang%2Fpgk%2Fblob%2Fmaster%2F_notebooks%2F2022-11-29-Section-Ten.ipynb" target="_blank">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FPGK-Lang%2Fpgk%2Fblob%2Fmaster%2F_notebooks%2F2022-12-05-iteration.ipynb" target="_blank">
       <img class="notebook-badge-image" src="/pgk/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
   </a>
 </div>
@@ -125,53 +127,21 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#Big-Ideas">Big Ideas </a>
+<li class="toc-entry toc-h2"><a href="#Big-Ideas">Big Ideas </a></li>
+<li class="toc-entry toc-h2"><a href="#Necessary-Vocabulary">Necessary Vocabulary </a></li>
+<li class="toc-entry toc-h2"><a href="#What-is-Iteration?">What is Iteration? </a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#Necessary-Vocabulary">Necessary Vocabulary </a></li>
-<li class="toc-entry toc-h2"><a href="#Examples-of-List-Operations">Examples of List Operations </a></li>
-<li class="toc-entry toc-h2"><a href="#What-are-Lists?">What are Lists? </a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#Adding-Something-to-a-List">Adding Something to a List </a></li>
-<li class="toc-entry toc-h3"><a href="#Removing-Items">Removing Items </a></li>
-<li class="toc-entry toc-h3"><a href="#Practice">Practice </a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#Question-1">Question 1 </a></li>
-<li class="toc-entry toc-h4"><a href="#Question-2">Question 2 </a></li>
-<li class="toc-entry toc-h4"><a href="#Question-3">Question 3 </a></li>
-<li class="toc-entry toc-h4"><a href="#Question-4">Question 4 </a></li>
-<li class="toc-entry toc-h4"><a href="#Question-5">Question 5 </a></li>
+<li class="toc-entry toc-h3"><a href="#Practice">Practice </a></li>
+<li class="toc-entry toc-h3"><a href="#Practice">Practice </a></li>
+<li class="toc-entry toc-h3"><a href="#Practice">Practice </a></li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#Nested-Lists">Nested Lists </a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#Uses-of-Nested-lists">Uses of Nested lists </a></li>
-<li class="toc-entry toc-h2"><a href="#You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later">You can also iterate over these using multiple loops, but we&#39;ll talk about that later </a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#Iterating-Through-a-List-and-Sorting">Iterating Through a List and Sorting </a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#What-is-Iteration?">What is Iteration? </a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#Examples">Examples </a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#Sorting-algorithms">Sorting algorithms </a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#Homework">Homework </a>
-<ul>
-<li class="toc-entry toc-h5"><a href="#Sources">Sources </a></li>
-</ul>
-</li>
+<li class="toc-entry toc-h2"><a href="#Sources">Sources </a></li>
 </ul><!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2022-11-29-Section-Ten.ipynb
+# file to edit: _notebooks/2022-12-05-iteration.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -179,14 +149,12 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Big-Ideas">
+<h2 id="Big-Ideas">
 <a class="anchor" href="#Big-Ideas" aria-hidden="true"><span class="octicon octicon-link"></span></a>Big Ideas<a class="anchor-link" href="#Big-Ideas"> </a>
-</h1>
+</h2>
 <ul>
-<li>Understanding how to edit lists by adding, inserting, and removing data</li>
-<li>Using loops to iterate through lists and abstract data </li>
-<li>Determine the results or side effects of iteration statements</li>
-<li>Write sorting algorithms using iteration</li>
+<li>Understanding What is Iteration</li>
+<li>Using For and While Loops</li>
 </ul>
 
 </div>
@@ -195,555 +163,28 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Necessary-Vocabulary">
+<h2 id="Necessary-Vocabulary">
 <a class="anchor" href="#Necessary-Vocabulary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Necessary Vocabulary<a class="anchor-link" href="#Necessary-Vocabulary"> </a>
-</h3>
-<ul>
-<li>
-<em>Indexing</em> / <em>List Index</em> - The position of an element in a list, starting from 0 <br>
-</li>
-<li>
-<em><code>append</code></em>, <em><code>remove</code></em>, <em><code>pop</code></em> - Various methods, append adds an element to the end, remove removes at an index, and pop removes the last item. <br>
-</li>
-<li>
-<em>Elements [in a list]</em> - An item in a list. <br>
-</li>
-<li>
-<em>Nesting</em> - Having one data type or function inside another data type or function, such as lists or loops. <br>
-</li>
-<li>
-<em>array</em> - Another name for a list, depends on the language</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Examples-of-List-Operations">
-<a class="anchor" href="#Examples-of-List-Operations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples of List Operations<a class="anchor-link" href="#Examples-of-List-Operations"> </a>
-</h2>
-<p>Extra Resource: <strong>Documentation</strong></p>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>List Documentation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Python</td>
-<td><a href="https://docs.python.org/3/tutorial/datastructures.html">link</a></td>
-</tr>
-<tr>
-<td>Javascript</td>
-<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">link</a></td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="What-are-Lists?">
-<a class="anchor" href="#What-are-Lists?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are Lists?<a class="anchor-link" href="#What-are-Lists?"> </a>
 </h2>
 <ul>
-<li>Lists are a collection of data in a sequence that is an iterable</li>
-<li>Each sequence is demarcated with an <mark>index</mark>, starting from 0. This is known as <mark>base 0 indexing</mark>
+<li>
+<em>Iteration</em>  - Repitition of a Process <br>
 </li>
-<li>In memory, it is stored as a variable name with multiple pointers to each variable stored in a certain order</li>
-<li>Lists can also be called arrays</li>
-<li>Lists have methods that act upon the list and change them. This moves the pointers within RAM to change the parts of the list.</li>
-</ul>
-<p><strong>A MASSIVE NOTE: Lists methods <em>Mutate</em>, meaning they actively change the list, but they don't return anything. This means that return a None-type, which you cannot manipulate</strong></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Adding-Something-to-a-List">
-<a class="anchor" href="#Adding-Something-to-a-List" aria-hidden="true"><span class="octicon octicon-link"></span></a>Adding Something to a List<a class="anchor-link" href="#Adding-Something-to-a-List"> </a>
-</h3>
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"kiwi"</span><span class="p">,</span> <span class="s2">"pomegranate"</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits before append: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">"dragonfruit"</span><span class="p">)</span> <span class="c1"># ADDS TO THE END OF THE LIST</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after append: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Fruits before append: ['apple', 'banana', 'kiwi', 'pomegranate']
-Fruits after append: ['apple', 'banana', 'kiwi', 'pomegranate', 'dragonfruit']
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">food</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"kiwi"</span><span class="p">,</span> <span class="s2">"pomegranate"</span><span class="p">]</span>
-<span class="n">vegetables</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"carrot"</span><span class="p">,</span> <span class="s2">"cucumber"</span><span class="p">,</span> <span class="s2">"eggplant"</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits before extend: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">vegetables</span><span class="p">)</span> <span class="c1"># adds the vegetable list to the end of the food list </span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after extend: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Fruits before extend: ['apple', 'banana', 'kiwi', 'pomegranate', 'dragonfruit']
-Fruits after extend: ['apple', 'banana', 'kiwi', 'pomegranate', 'dragonfruit', 'carrot', 'cucumber', 'eggplant']
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"kiwi"</span><span class="p">,</span> <span class="s2">"pomegranate"</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits before insert: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"dragonfruit"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after insert: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Fruits before insert: ['apple', 'banana', 'kiwi', 'pomegranate']
-Fruits after insert: ['apple', 'dragonfruit', 'banana', 'kiwi', 'pomegranate']
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Removing-Items">
-<a class="anchor" href="#Removing-Items" aria-hidden="true"><span class="octicon octicon-link"></span></a>Removing Items<a class="anchor-link" href="#Removing-Items"> </a>
-</h3>
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"kiwi"</span><span class="p">,</span> <span class="s2">"pomegranate"</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits before pop: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after pop (no parameter): </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after pop (specifying index 0): </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Fruits before pop: ['apple', 'banana', 'kiwi', 'pomegranate']
-Fruits after pop (no parameter): ['apple', 'banana', 'kiwi']
-Fruits after pop (specifying index 0): ['banana', 'kiwi']
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"kiwi"</span><span class="p">,</span> <span class="s2">"pomegranate"</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits before remove: </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">"apple"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after remove (removing apple): </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="n">fruits</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">"kiwi"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Fruits after remove (removing kiwi): </span><span class="si">{</span><span class="n">fruits</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Fruits before remove: ['apple', 'banana', 'kiwi', 'pomegranate']
-Fruits after remove (removing apple): ['banana', 'kiwi', 'pomegranate']
-Fruits after remove (removing kiwi): ['banana', 'pomegranate']
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice">
-<a class="anchor" href="#Practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practice<a class="anchor-link" href="#Practice"> </a>
-</h3>
-<h4 id="Question-1">
-<a class="anchor" href="#Question-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 1<a class="anchor-link" href="#Question-1"> </a>
-</h4>
-<hr>
-<p><strong>Consider the Following Code Segment</strong></p>
-
-<pre><code>{
-    lst =  ["your", "a", "very", "skilled", "individual"]
-    lst.append("Person")
-    lst.pop()
-    lst.remove("your")
-    lst.insert(0, "you're")
-    print(lst)
-}</code></pre>
-<details closed="">
-<summary>Answer!</summary>
-["you're", 'a', 'very', 'skilled', 'individual']
-</details>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-2">
-<a class="anchor" href="#Question-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 2<a class="anchor-link" href="#Question-2"> </a>
-</h4>
-<hr>
-<p><strong>In each instance, would we use a list?</strong>
-We want to represent a sequence of children in order. <br>
-We want to represent the number of animals in a zoo. <br>
-We want to repeatedly find the derivative of a number. <br>
-We want to represent Key value pairs of schools and their quantities
-We want to represent the grades of a classroom <br></p>
-<details closed="">
-<summary>Answer!</summary>
-1. Yes <br>
-2 No <br>
-3. No <br>
-4. No <br>
-5. Yes
-</details>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-3">
-<a class="anchor" href="#Question-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 3<a class="anchor-link" href="#Question-3"> </a>
-</h4>
-<hr>
-
-<pre><code>{
-mgAmounts ← [50, 230, 63, 98, 80, 120, 71, 158, 41]
-bestAmounts ← []
-mgPerDay ← 360
-mgMin ← mgPerDay * 0.3
-FOR EACH mgAmount IN mgAmounts
-{
-    IF (mgAmount ≥ mgMin)
-    {
-        &lt;MISSING CODE&gt;
-    }
-} 
-}</code></pre>
-<p><strong>What can replace <missing code=""> so that this program will work as expected?&lt;/strong&gt;
-However, there may multiple answers
-a. INSERT(bestAmounts, mgAmount)
-b. APPEND(bestAmounts, mgAmount)
-c. INSERT(bestAmounts, mgAmounts)
-d. INSERT(mgAmounts, mgAmount)
-e. APPEND(bestAmounts, mgAmounts)
-f. APPEND(mgAmounts, mgAmount)&lt;/p&gt;
-<details closed="">
-<summary>Answer!</summary>
-Only b, as it is the only item that correctly uses the method and doesn't improperly extend the length.
-</details>
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-4">
-<a class="anchor" href="#Question-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 4<a class="anchor-link" href="#Question-4"> </a>
-</h4>
-<hr>
-<p><strong>Consider the following code segment</strong></p>
-
-<pre><code>{
-sevenWonders ← ["Aurora", "Grand Canyon", "Great Barrier Reef", "Guanabara Bay", "Mount Everest", "Parícutin", "Victoria Falls"]
-
-sevenWonders[4] ← "Komodo"
-sevenWonders[6] ← "Table Mountain"
-}</code></pre>
-<p><strong>What does <code>sevenWonders</code> store?</strong></p>
-<details closed="">
-<summary>Answer!</summary>
-"Aurora", "Grand Canyon", "Great Barrier Reef", "Komodo", "Mount Everest", "Table Mountain", "Victoria Falls"
-</details>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Question-5">
-<a class="anchor" href="#Question-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 5<a class="anchor-link" href="#Question-5"> </a>
-</h4>
-<hr>
-<p><strong>Consider the Following Code Segment</strong></p>
-
-<pre><code>{
-
-lst = [12,3,4,5,14,6,1,234]
-
-lst.pop()
-lst.append('x')
-lst.insert(lst[0])
-
-print(lst.pop())
-print(lst)
-
-}</code></pre>
-<p><em>What would this display</em></p>
-<details closed="">
-<summary>Answer!</summary>
-:P try and get it without checking the answer!
-</details>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Nested-Lists">
-<a class="anchor" href="#Nested-Lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested Lists<a class="anchor-link" href="#Nested-Lists"> </a>
-</h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Uses-of-Nested-lists">
-<a class="anchor" href="#Uses-of-Nested-lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Uses of Nested lists<a class="anchor-link" href="#Uses-of-Nested-lists"> </a>
-</h2>
-<p>Placing lists within lists allows you to have arrays of similar data together, and create complexity. <br></p>
-<p>Some uses include:</p>
-<ul>
-<li>Creating 2d Arrays </li>
-<li>Storing similar, but slightly different categories (sublists)</li>
-<li>Create a matrix</li>
+<li>
+<em><code>For Loop</code></em> - FOR LOOP repeats a function for a set number of times; I is the number of times repeated <br>
+</li>
+<li>
+<em><code>While Loop</code></em>  - The while loop is used to repeat a section of code an unknown number of times until a specific condition is met <br>
+</li>
+<li>
+<em>Initialization</em> - The initialization part initializes the counter variable to a starting value. For example (var i = 0) represents an initial value of 0. <br>
+</li>
+<li>
+<em>Condition</em> - Allows the computer to know whether or not to keep repeating the loop.</li>
+<li>
+<em>increment/decrement</em> - Modifies the counter variable after each repetition.</li>
 </ul>
 
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">TwoDArray</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">TwoDArray</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># print first sublist</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">TwoDArray</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># print second sublist</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">TwoDArray</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># print third sublist</span>
-
-<span class="c1"># These 1s and 0s could represent anything. AMAZING DATA ABSTRACTION!</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 0, 1, 0, 1, 0, 0, 0]
-[0, 0, 0, 0, 1, 0, 1, 1]
-[1, 1, 0, 0, 0, 1, 1, 1]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later">
-<a class="anchor" href="#You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later" aria-hidden="true"><span class="octicon octicon-link"></span></a>You can also iterate over these using multiple loops, but we'll talk about that later<a class="anchor-link" href="#You-can-also-iterate-over-these-using-multiple-loops,-but-we'll-talk-about-that-later"> </a>
-</h2>
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bin_0</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">bin_1</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">array</span> <span class="ow">in</span> <span class="n">TwoDArray</span><span class="p">:</span>
-    <span class="k">for</span> <span class="nb">bin</span> <span class="ow">in</span> <span class="n">array</span><span class="p">:</span>
-        <span class="k">if</span> <span class="nb">bin</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="n">bin_0</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="k">elif</span> <span class="nb">bin</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="n">bin_1</span> <span class="o">+=</span> <span class="mi">1</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Num 0s: </span><span class="si">{</span><span class="n">bin_0</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Num 1s: </span><span class="si">{</span><span class="n">bin_1</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Num 0s: 17
-Num 1s: 15
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Iterating-Through-a-List-and-Sorting">
-<a class="anchor" href="#Iterating-Through-a-List-and-Sorting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Iterating Through a List and Sorting<a class="anchor-link" href="#Iterating-Through-a-List-and-Sorting"> </a>
-</h1>
 </div>
 </div>
 </div>
@@ -753,10 +194,9 @@ Num 1s: 15
 <h2 id="What-is-Iteration?">
 <a class="anchor" href="#What-is-Iteration?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Iteration?<a class="anchor-link" href="#What-is-Iteration?"> </a>
 </h2>
-<p>We can use <code>for</code> and <code>while</code> loops to iterate over loops! Then we can manipulate each element in the list for a certain purpose (adding, adding to another list, removing, etc.)
-<br>
-<br>
-However, recall that each list item is at an <code>index</code>, and we can't exceed the number of indices that an element has, otherwise we get a <code>IndexError: List out of range</code></p>
+<p>Iterative statements are also called loops, and they repeat themselves over and over until the condition for stopping is met.</p>
+<p>In College Board's Pseudocode, the first is a REPEAT n TIMES loop, where the n represents some number.</p>
+<p><img src="/pgk/images/copied_from_nb/../images/iteration.png" alt="Alt text"></p>
 
 </div>
 </div>
@@ -764,283 +204,87 @@ However, recall that each list item is at an <code>index</code>, and we can't ex
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>The two programs below are both intended to display the total number of hours from a list of durations in minutes.</strong></p>
-<p>Program One:</p>
+<p>The second type of loop is a REPEAT UNTIL (condition) loop, where the loop will continue to run until a condition is met.</p>
+<p>Conceptually, a while loop is very similar to an if conditional, except that a while is continually executed until it's no longer true and an if is only executed once.</p>
 
-<pre><code>{
-totalMins ← 0
-durations ← [32, 56, 28, 27]
-FOR EACH duration IN durations
-{
-   totalMins ← totalMins + duration
-}
-totalHours ← totalMins / 60
-DISPLAY(totalHours)
-}</code></pre>
-<p>Program Two</p>
-
-<pre><code>{
-totalMins ← 0
-durations ← [32, 56, 28, 27]
-FOR EACH duration IN durations
-{
-   totalMins ← totalMins + duration
-   totalHours ← totalMins / 60
-}
-DISPLAY(totalHours)
-}</code></pre>
-<p>a. Program 1 displays the correct total number of hours, while Program 2 does not. <br>
-b. Program 2 displays the correct total number of hours, while Program 1 does not. <br>
-c. Both programs display the correct total number of hours, but Program 1 unnecessarily repeats arithmetic operations. <br>
-d. Both programs display the correct total number of hours, but Program 2 unnecessarily repeats arithmetic operations. <br></p>
-<details closed="">
-<summary>Answer!</summary>
-Correct answer: d
-</details>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>A javelin thrower is writing code to track the distance of their throws and how far they are from their target distance.</strong>
-This is what they have so far:</p>
-
-<pre><code>{
-totalDistance ← 0
-targetDistance ← 90
-throw1 ←  85.2
-DISPLAY(targetDistance - throw1)
-totalDistance ← totalDistance + throw1
-throw2 ←  82.8
-DISPLAY(targetDistance - throw2)
-totalDistance ← totalDistance + throw2
-throw3 ←  87.3
-DISPLAY(targetDistance - throw3)
-totalDistance ← totalDistance + throw3
-avgDistance ← totalDistance / 3
-DISPLAY(avgDistance)</code></pre>
-<p><strong>A friend points out that they can reduce the complexity of their code by using the abstractions of lists and loops. The programmer decides to "refactor" the code, to rewrite it so that it produces the same output but is structured better.</strong> <br></p>
-<p><strong>Which of these is the best refactor of the code?</strong> <br>
-These are all closed so you can see each without being eye-bombed.
-<br></p>
-<details closed="">
-<summary> a </summary>
-<code>
-targetDistance ← 90 <br>
-throws ← [85.2, 82.8, 87.3]<br>
-totalDistance ← 0<br>
-FOR EACH throw IN throws<br>
-{<br>
-    DISPLAY(targetDistance - throw)<br>
-    totalDistance ← totalDistance + throw<br>
-}<br>
-avgDistance ← totalDistance / LENGTH(throws)<br>
-DISPLAY(avgDistance)<br>
-</code>
-</details>
-<br>
-<details closed="">
-<summary> b </summary>
-<code>
-targetDistance ← 90<br>
-throws ← [85.2, 82.8, 87.3]<br>
-totalDistance ← 0<br>
-FOR EACH throw IN throws<br>
-{<br>
-    DISPLAY(targetDistance - throw)<br>
-    totalDistance ← totalDistance + throw<br>
-}<br>
-avgDistance ← totalDistance / 3<br>
-DISPLAY(avgDistance)<br>
-</code>
-</details>
-<br>
-<details closed="">
-<summary> c </summary>
-<code>
-targetDistance ← 90<br>
-throws ← [85.2, 82.8, 87.3]<br>
-totalDistance ← 0<br>
-FOR EACH throw IN throws<br>
-{<br>
-    DISPLAY(targetDistance - throw)<br>
-    totalDistance ← totalDistance + throw <br>
-    avgDistance ← totalDistance / LENGTH(throws)<br>
-}<br>
-DISPLAY(avgDistance)<br>
-</code>
-</details>
-<br>
-<details closed="">
-<summary> d </summary>
-<code>
-targetDistance ← 90<br>
-throws ← [85.2, 82.8, 87.3]<br>
-FOR EACH throw IN throws<br>
-{<br>
-    totalDistance ← 0<br>
-    DISPLAY(targetDistance - throw)<br>
-    totalDistance ← totalDistance + throw <br>
-    avgDistance ← totalDistance / LENGTH(throws)<br>
-}<br>
-DISPLAY(avgDistance)<br>
-</code>
-</details>
-<br>
-<details closed="">
-<summary> e </summary>
-<code>
-targetDistance ← 90<br>
-throws ← [85.2, 82.8, 87.3]<br>
-FOR EACH throw IN throws<br>
-{<br>
-    totalDistance ← 0<br>
-    DISPLAY(targetDistance - throw)<br>
-    totalDistance ← totalDistance + throw<br>
-}<br>
-avgDistance ← totalDistance / LENGTH(throws)<br>
-DISPLAY(avgDistance)<br>
-</code>
-</details>
-<br>
-<details closed="">
-<summary>Answer!</summary>
-Correct answer: a
-</details>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>The following code snippet processes a list of strings with a loop and conditionals:</strong></p>
-
-<pre><code>{
-words ← ["cab", "lab", "cable", "cables", "bales", "bale"]
-wordScore ← 0
-FOR EACH word IN words {
-    IF (LEN(word) ≥ 5) {
-        wordScore ← wordScore + 3
-    } ELSE {
-        IF (LEN(word) ≥ 4) {
-            wordScore ← wordScore + 2
-        } ELSE {
-            IF (LEN(word) ≥ 3) {
-                wordScore ← wordScore + 1
-            }
-        }
-    }
-}
-DISPLAY(wordScore)
-}</code></pre>
-<p><strong>The code relies on one string procedure, LEN(string), which returns the number of characters in the string.</strong> <br>
-<strong>What value will this program display?</strong>
-<br></p>
-<details closed="">
-<summary>Answer!</summary>
-Correct answer: 13
-</details>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Examples">
-<a class="anchor" href="#Examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples<a class="anchor-link" href="#Examples"> </a>
-</h1>
-<h3 id="Sorting-algorithms">
-<a class="anchor" href="#Sorting-algorithms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sorting algorithms<a class="anchor-link" href="#Sorting-algorithms"> </a>
+<h3 id="Practice">
+<a class="anchor" href="#Practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practice<a class="anchor-link" href="#Practice"> </a>
 </h3>
-<p>Insertion Sort:</p>
-<ul>
-<li>Takes in unsorted list with numerical elements and returns with numerical elements in order</li>
-<li>iterates through every element one at a time</li>
-<li>check if element before the selected element is greater than or less than the selected element and adjust accordingly</li>
-</ul>
+<p><strong>Consider the Following Code Segment. What is the Counter Variable and the Condition set as?</strong></p>
 
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">8</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"array before sort </span><span class="si">{</span><span class="n">arr</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">insertion_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)):</span> <span class="c1"># repeats through length of the array</span>
-        <span class="n">value</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">index</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">value</span> <span class="o">&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-                <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="c1"># shift number in slot i to the right</span>
-                <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span> <span class="c1"># shift value left into slot i</span>
-                <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="k">break</span>
-
-<span class="n">IS</span> <span class="o">=</span> <span class="n">insertion_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"array after sort </span><span class="si">{</span><span class="n">arr</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>array before sort [9, 1, 5, 6, 3, 7, 2, 8]
-array after sort [1, 2, 3, 5, 6, 7, 8, 9]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Homework">
-<a class="anchor" href="#Homework" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://pgk-lang.github.io/pgk/homework">Homework</a><a class="anchor-link" href="#Homework"> </a>
-</h1>
+<pre><code>    for (var i = 10; i &gt; 0; i--) {
+   println(i);
+}</code></pre>
+<details closed="">
+<summary>Answer!</summary>
+[Counter Variable: 10, Condition: Greater than 0]
+</details>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h5 id="Sources">
+<h3 id="Practice">
+<a class="anchor" href="#Practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practice<a class="anchor-link" href="#Practice"> </a>
+</h3>
+<p><strong>Consider the Following Code Segment. How Many times will print(ln) be called?</strong></p>
+
+<pre><code>   for (var i = 1; i &lt;= 10; i++) {
+  for (var j = 1; j &lt;= 10; j++) {
+    println(i * j);
+  }
+}</code></pre>
+<details closed="">
+<summary>Answer!</summary>
+[100 Times.The computer will execute the outer for loop 10 times (starting at i = 1 and ending after i = 10). Each time that it executes the outer loop, it will execute the inner for loop 10 times (starting at j = 1 and ending after j = 10). Each inner execution will call println() once.10 times 10 times 1 is 100, so the computer will call println() 100 times.]
+</details>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Practice">
+<a class="anchor" href="#Practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practice<a class="anchor-link" href="#Practice"> </a>
+</h3>
+<p><strong>Consider the Following Code Segment. What is it initial value? What does the while loop check?</strong></p>
+
+<pre><code>   var numRabbits = 2;
+var numYears = 0;
+while (numRabbits &lt;= 100) {
+    numRabbits += (numRabbits/2 * 30);
+    numYears++;
+}</code></pre>
+<details closed="">
+<summary>Answer!</summary>
+[2 Rabbits.The while loop checks that the number of rabbits is less than 100. As long as the population is less the 100, the code inside the loop continues to run.]
+</details>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Sources">
 <a class="anchor" href="#Sources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sources<a class="anchor-link" href="#Sources"> </a>
-</h5>
+</h2>
 <ul>
-<li>AP Classroom/AP Classroom Website</li>
-<li>Khan Academy APCSP module</li>
-<li>Coursera python courss by UMich</li>
+<li>AP College Board/Classrom</li>
+<li>Khan Academy: APCSP</li>
 </ul>
 
 </div>
 </div>
 </div>
-&lt;/div&gt;
- 
+</div>
 
-</missing></strong></p>
-</div>
-</div></div>
-</div>
 
 
   </div><!-- from https://github.com/utterance/utterances -->
