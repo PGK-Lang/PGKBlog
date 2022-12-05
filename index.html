@@ -51,7 +51,7 @@ layout: home
     function typeWriter(x) {
 
         if (i <= txt.length) {
-            document.getElementById("typewriter").innerHTML = '\xa0' + txt.substring(0, i)
+            document.getElementById("typewriter").innerHTML = txt.substring(0, i)
             i++;
             setTimeout(typeWriter, speed);
         }
