@@ -2,7 +2,7 @@
 permalink: /quiz
 layout: page
 search_exclude: false
-title: Quiz
+title: Lists & Iteration Quiz
 ---
 
 <body>
