@@ -3,9 +3,9 @@
     
         "post0": {
             "title": "Homework for Sections 8 & 10",
-            "content": "What you need to do . Multiple Choice quiz . Complete the exercises and add screenshots of your completed code to your blog Reflect on what you learned | . | Exercises . Complete the quiz and add screenshots of the questions you got wrong to your blog Reflect on what you learned | If you got everything correct, look at the javascript code used to create the quiz and explain how the use of lists and iteration helps to make the code more efficient | . |",
-            "url": "https://pgk-lang.github.io/pgk/posts/lesson",
-            "relUrl": "/posts/lesson",
+            "content": "What you need to do . Exercises . Complete the exercises and add screenshots of your completed code to your blog Reflect on what you learned | . | Multiple Choice quiz . Complete the quiz and add screenshots of the questions you got wrong to your blog Reflect on what you learned | If you got everything correct, look at the javascript code used to create the quiz and explain how the use of lists and iteration helps to make the code more efficient | . |",
+            "url": "https://pgk-lang.github.io/pgk/homework",
+            "relUrl": "/homework",
             "date": " • Dec 4, 2022"
         }
         
