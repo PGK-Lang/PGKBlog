@@ -47,3 +47,13 @@ function printTextIfRight(){
     - <p id="ret"> the answer would then be considered whether it was true </p>
     - Running on this basic system switch out questions depending on whether it was correct or not. (Also save strikes if incorrect)
     - **<mark> After the game </mark>**:  Save into a file/api? allow to save and display a highscore for those who wish to save as such. Gives as an incentive to continue.
+
+## Task 2: F1 Statistic Page
+   - Retrieve data from the API by making an HTTP request to the API endpoint   
+     - https://rapidapi.com/sportcontentapi/api/f1-live-motorsport-data/
+       - Contains Information Regarding: Constructor Standings, Drivers Standings, Races, Seasons, Drivers, and Constructors
+   - Organize the statistics into a structured format. Create a table
+   - Integrate in Webpage and add Images to enhance the appeal
+   - Style the webpage with CSS
+   - Updated regularly by scheduling a task to pull the data from the API at regular intervals
+
