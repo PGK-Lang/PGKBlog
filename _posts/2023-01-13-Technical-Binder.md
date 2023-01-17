@@ -64,3 +64,4 @@ function printTextIfRight(){
    - Allow and input bar to more easily find circuits
    - Improve webpage with SASS and CSS
    - Update webpage periodically with calls to the API
+   - [See Webpage](https://pgk-lang.github.io/jamals-stats/circuits/)
