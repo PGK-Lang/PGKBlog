@@ -57,3 +57,10 @@ function printTextIfRight(){
    - Style the webpage with CSS
    - Updated regularly by scheduling a task to pull the data from the API at regular intervals
 
+## Task 3: F1 Circuits Page
+   - Fetch data from API to receive images and extra details about F1 circuits
+     - https://rapidapi.com/api-sports/api/api-formula-1
+   - Organize the circuits into a readable format
+   - Allow and input bar to more easily find circuits
+   - Improve webpage with SASS and CSS
+   - Update webpage periodically with calls to the API
